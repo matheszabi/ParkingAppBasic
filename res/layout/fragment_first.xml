@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".fragment.FirstFragment" >
+
+    <TextView
+        android:id="@+id/tvSatelitesInView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvGpsState"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/tvSatelitesInViewDefault" />
+
+    <TextView
+        android:id="@+id/tvSatelitesInUse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvSpeed"
+        android:layout_alignLeft="@+id/tvSatelitesInView"
+        android:text="@string/tvSatelitesInUseDefault" />
+
+    <ToggleButton
+        android:id="@+id/tbtGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvListenGps"
+        android:layout_below="@+id/tvListenGps"
+        android:text="@string/tbtGpsString" />
+
+    <TextView
+        android:id="@+id/tvListenGps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvSpeed"
+        android:layout_alignLeft="@+id/tvSatelitesInUse"
+        android:text="@string/tvListenGpsString" />
+
+    <TextView
+        android:id="@+id/tvGpsState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tvGpsStateDefault"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvAccuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvGpsState"
+        android:layout_below="@+id/tvGpsState"
+        android:text="@string/tvAccuracyDefault" />
+
+    <TextView
+        android:id="@+id/tvSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvAccuracy"
+        android:layout_below="@+id/tvAccuracy"
+        android:text="@string/tvSpeedDefault" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvSpeed"
+        android:layout_alignTop="@+id/tbtGps"
+        android:text="@string/tvTimeDefault" />
+
+    <TextView
+        android:id="@+id/tvLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvTime"
+        android:layout_below="@+id/tvTime"
+        android:text="@string/tvLatitudeDefault" />
+
+    <TextView
+        android:id="@+id/tvLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLatitude"
+        android:layout_below="@+id/tvLatitude"
+        android:text="@string/tvLongitudeDefault" />
+
+    <TextView
+        android:id="@+id/tvAngle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvLongitude"
+        android:layout_below="@+id/tvLongitude"
+        android:text="@string/tvAngleDefault" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvLongitude"
+        android:layout_below="@+id/tvLongitude"
+        android:text="@string/btSaveString" />
+
+</RelativeLayout>

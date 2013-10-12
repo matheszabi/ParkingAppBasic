@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parking App Basic</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Location Monitor</string>
+    <string name="title_section2">Location Finder</string>
+    <string name="title_section3">Section 3</string>
+    <string name="tvGpsStateDefault">GPS: </string>
+    <string name="tvSatelitesInViewDefault">Satellites in View: </string>
+    <string name="tvSpeedDefault">Speed: </string>
+    <string name="tvSatelitesInUseDefault">Satellites in Use: </string>
+    <string name="tvAccuracyDefault">Accuracy: </string>
+    <string name="tvTimeDefault">Time: </string>
+    <string name="tvLatitudeDefault">Latitude: </string>
+    <string name="tvLongitudeDefault">Longitude: </string>
+    <string name="tvAngleDefault">Angle: </string>
+    <string name="tbtGpsString">Toggle GPS</string>
+    <string name="tvListenGpsString">Listen GPS:</string>
+    <string name="btSaveString">Save\nLocation</string>
+    <string name="btLoadString">Load\nLocation</string>
+    <string name="tvBearingToDefault">Bearing To: </string>
+    <string name="tvDistanceToDefault">Distance To: </string>
+
+</resources>
